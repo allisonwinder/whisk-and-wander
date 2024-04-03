@@ -4,20 +4,20 @@ main {
   height: 100vh;
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 4em 2em auto;
+  grid-template-rows: 7em 2em auto;
   grid-template-areas:
-      "header header"
-      "crumbs crumbs"
-      "nav body";
+    "header header"
+    "crumbs crumbs"
+    "nav body";
 }
 
 @media screen and (max-width: 44rem) {
   main {
-      grid-template-columns: auto;
-      grid-template-rows: 2rem 2fr 1fr;
-      grid-template-areas:
-          "header"
-          "body"
-          "nav";
+    grid-template-columns: auto;
+    grid-template-rows: 2rem 2fr 1fr;
+    grid-template-areas:
+      "header"
+      "body"
+      "nav";
   }
 }
