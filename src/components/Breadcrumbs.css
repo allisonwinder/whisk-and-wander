@@ -1,0 +1,7 @@
+.crumbs {
+    grid-area: crumbs;
+    background-color: blueviolet;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+}

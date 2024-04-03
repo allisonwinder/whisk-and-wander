@@ -1,0 +1,9 @@
+nav {
+    grid-area: nav;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    border-right: 1px solid;
+    position: relative;
+    background-color: green;
+}
