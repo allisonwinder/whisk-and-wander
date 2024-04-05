@@ -6,4 +6,16 @@ section {
   border-right: 1px solid;
   position: relative;
   background-color: whitesmoke;
+  margin-bottom: 0em;
+}
+
+.bodywrapper {
+  position: relative;
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 0em;
+  margin-bottom: 1em;
+  overflow-x: auto;
+  height: 100%;
 }
