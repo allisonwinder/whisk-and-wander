@@ -1,9 +1,8 @@
 .allison {
-  flex: 0 0 30%;
+  flex: 0 0 auto;
   padding: 1em;
   position: relative;
-  width: auto; /* set to anything and aspect ratio is maintained - also corrects glitch in Internet Explorer */
-  height: auto; /* set to anything and aspect ratio is maintained */
+  height: 100%; /* set to anything and aspect ratio is maintained */
   max-width: 30%;
 }
 
