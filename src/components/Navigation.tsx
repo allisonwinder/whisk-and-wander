@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <nav>
-      <div className="buttonWrapper">
+      <div className="buttonWrapper brand">
         <Link to="/" className="btn">
           Home
         </Link>

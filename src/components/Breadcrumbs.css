@@ -3,6 +3,15 @@
   background-color: #a0e7bd;
   height: 100%;
   min-height: 100%;
-  text-align: center;
+  display: flex; /* Add flexbox display */
+  justify-content: left; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: left;
   outline: solid grey 1px;
+  padding-left: 2em;
+}
+
+.links {
+  text-decoration: none; /* Remove default link underline */
+  color: black;
 }
