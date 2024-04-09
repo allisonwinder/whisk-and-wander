@@ -4,16 +4,24 @@
 }
 
 .recipe-card {
-  flex: 0 0 calc(33.33% - 20px); /* Three columns with margin between cards */
+  flex: 0 0 calc(25%); /* Three columns with margin between cards */
   margin: 10px;
-  padding: 15px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #fbede6;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05); /* Scale up the card slightly on hover */
+  background-color: #e0e0e0; /* Change background color on hover */
 }
 
 @media (max-width: 768px) {
   .recipe-card {
-    flex: 0 0 calc(50% - 20px); /* Two columns on smaller screens */
+    flex: 0 0 calc(33%); /* Two columns on smaller screens */
   }
 }
