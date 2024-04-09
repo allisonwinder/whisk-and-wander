@@ -10,7 +10,7 @@ export default function Home() {
         <div className="thoughts">
           <p className="brand">
             My name is Allison Winder. I am a Seattle-grown girl who has had a
-            passion for cooking and baking since she was a child. My mom would
+            passion for cooking and baking since I was a child. My mom would
             always invite me to help her in the kitchen and it gave me
             confidence to make food for myself at a young age.
           </p>

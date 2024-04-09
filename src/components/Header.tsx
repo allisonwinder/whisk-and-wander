@@ -1,5 +1,4 @@
 import "./Header.css";
-import logoSquare from "../logoSquare.png";
 import iconSquare from "../img/iconSquare.png";
 
 export default function Header() {
