@@ -3,11 +3,11 @@ export interface Recipe {
   fullName: string;
   abrvName: string;
   category: string;
-  subcategory: string | null;
+  subcategory: string;
   instructions: string;
   image: string;
-  prepTime: string | null;
-  cookTime: string | null;
-  totalTime: string | null;
+  prepTime: string;
+  cookTime: string;
+  totalTime: string;
   ingredients: string;
 }
