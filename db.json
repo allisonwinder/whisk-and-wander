@@ -1,7 +1,6 @@
 {
   "recipes": [
     {
-      "id": 1,
       "fullName": "Oatmeal Chocolate Chip and M&M Cookies",
       "abrvName": "Oatmeal Choc Cookies",
       "category": "Dessert",
@@ -14,7 +13,6 @@
       "ingredients": "1 C butter flavored shortening (regular works fine); 1 C sugar; ½ C brown sugar; 2 eggs; 2 t vanilla; 2 cups flour; 1 t salt; 1 t baking soda; 1 C oats; 1 C chocolate chips (can replace both chocolate with a pkg of chocolate chips); 1 C M&Ms"
     },
     {
-      "id": 2,
       "fullName": "Chunky Chipper Cookies",
       "abrvName": "Chunky Cookies",
       "category": "Dessert",
@@ -27,7 +25,6 @@
       "ingredients": "2 C flour; 1 t baking soda; ½ t salt; ½ C shortening; ½ C peanut butter; 2 eggs; 1 C sugar; ½ brown sugar; 1 t vanilla; 1 T water; 1 12 oz pkg chocolate chips (big milk chocolate best)"
     },
     {
-      "id": 3,
       "fullName": "Nutter Butter Pie",
       "abrvName": "Nutter Butter Pie",
       "category": "Dessert",
@@ -40,7 +37,6 @@
       "ingredients": "24 Nutter Butter Cookies, crushed; 6 T salted butter, melted; 8 oz. cream cheese, room temperature; 1 cup marshmallow fluff; ⅓ cup creamy peanut butter; 1 cup heavy cream; 12 Nutter Butter Cookies, crushed; ½ cup heavy cream; 1 T powdered sugar; ¼ cup creamy peanut butter, warmed and drizzled on top"
     },
     {
-      "id": 4,
       "fullName": "Banana Bread",
       "abrvName": "Ban. Bread",
       "category": "Bread",
@@ -53,7 +49,6 @@
       "ingredients": "½ C butter/shortening/margarine; 1 C sugar; 2 eggs; 3 ripe bananas; ½ t salt; 2 C flour; 1 t baking soda"
     },
     {
-      "id": 5,
       "fullName": "French Bread",
       "abrvName": "Fr. Bread",
       "category": "Bread",
@@ -66,7 +61,6 @@
       "ingredients": "2 ½ C warm water; 2 T yeast; 1 T salt; 1 T butter, margarine, or shortening; 6-7 C flour"
     },
     {
-      "id": 6,
       "fullName": "Roasted Asparagus",
       "abrvName": "Asparagus",
       "category": "Side",
@@ -79,7 +73,6 @@
       "ingredients": "Asparagus; 1-2 T olive oil; Salt; Pepper"
     },
     {
-      "id": 7,
       "fullName": "Taco Soup",
       "abrvName": "Taco Soup",
       "category": "Main Dish",
@@ -92,7 +85,6 @@
       "ingredients": "1lb ground beef; 1 onion; 1 can corn or frozen; 1 can dark red kidney beans; 1 pckg taco seasoning or 3T; 1 8oz can tomato sauce (15 oz works); 1 28oz can stewed tomatoes"
     },
     {
-      "id": 8,
       "fullName": "Ham Fried Rice",
       "abrvName": "Fried Rice",
       "category": "Main Dish",
@@ -105,7 +97,6 @@
       "ingredients": "6 C cooked rice; 2 T oil; ½ C green onions; 1 C ham; 2 eggs beaten; 1 lb frozen peas and carrots"
     },
     {
-      "id": 9,
       "fullName": "Lion House Lasagna",
       "abrvName": "Lasagna",
       "category": "Main Dish",
@@ -118,7 +109,6 @@
       "ingredients": "1 to 1 ½ lbs ground beef; 1 clove garlic, minced; 1 T basil; 1 20 oz can stewed tomatoes; 1 10 oz package lasagna noodles; 2 eggs, beaten; 2 T parsley flakes; 1 lb mozzarella cheese, thinkly sliced; 1 ½ T oil; 1 T parsley flakes; 2 t salt; 1 6oz can tomato paste; 3 C large-curd cheese; ½ t pepper; ½ C grated Parmesan cheese"
     },
     {
-      "id": 10,
       "fullName": "Russian Tea",
       "abrvName": "Tea",
       "category": "Drink",
@@ -131,20 +121,18 @@
       "ingredients": "2 C white sugar; 2 C water; 2 quarts water; 2 C orange juice, reconstituted; ¼ C lemon juice, reconstituted; 1 t vanilla; 1 t almond extract"
     },
     {
-      "id": 11,
       "fullName": "Lemon Raspberry Zucchini Bread with a Lemony Glaze",
       "abrvName": "Lemon Bread",
       "category": "Bread",
       "subcategory": "",
       "instructions": "Preheat oven to 350⁰F. Grease and flour a 9×5″ loaf pan, set aside. In large bowl, blend flour, baking powder, and salt. In the mixer bowl of a stand mixer/medium-sized bowl, beat 2 eggs well. Then add oil and sugar, and beat on low until well combined. Add the milk, lemon juice, and lemon zest; blend everything well. Gently mix in the zucchini until just evenly distributed in mixture. Add dry ingredients and fold everything together, but don’t over mix. Lastly, fold in the raspberries. Pour the batter into the loaf pan. Bake for 45 minutes or until toothpick inserted in center comes out clean. Cool in pan 10 minutes then remove to a wire rack and cool completely. While the loaf is cooling, in small bowl, mix the powdered sugar and lemon juice until well blended. Spoon the glaze over the cooled loaf. Let the glaze set prior to slicing and serving.",
       "image": "https://i0.wp.com/iamahoneybee.com/wp-content/uploads/2020/07/Lemony_Raspberry_Zucchini_Bread_Lemony_Glaze_Big_20.jpg?resize=1024%2C683&ssl=1",
-      "prepTime": 30,
-      "cookTime": 45,
-      "totalTime": 75,
+      "prepTime": "30",
+      "cookTime": "45",
+      "totalTime": "75",
       "ingredients": "2 cups unbleached all-purpose flour; 2 teaspoon baking powder; 1/2 teaspoon salt; 2 eggs; 1/2 cup vegetable oil; 2/3 cup sugar; 1/2 cup whole milk; 1/4 cup fresh lemon juice; Zest of 1 lemon; 1 cup grated zucchini; 1 cup of raspberries"
     },
     {
-      "id": 12,
       "fullName": "Asian Chicken Wraps",
       "abrvName": "Chick. Wraps",
       "category": "Main Dish",
@@ -157,7 +145,6 @@
       "ingredients": "3 cups coleslaw mix; 1 cup shredded carrots; 1/3 cup roasted peanuts; 1/4 cup chopped fresh cilantro; 2 cooked chicken breasts, chopped or sliced; 6 large tortillas; 1/4 cup honey; 1/4 cup olive oil (or vegetable oil); 1/4 cup peanut butter; 3 tablespoons unseasoned rice vinegar; 1 tablespoon soy sauce; 1 teaspoon sesame oil; 1/2 teaspoon pepper; 1/4 teaspoon salt; 1/4–1/2 teaspoon crushed red pepper flakes; 1 tablespoon grated fresh ginger; 1 large garlic clove, minced"
     },
     {
-      "id": 13,
       "fullName": "One Pot Spicy Thai Noodles",
       "abrvName": "Thai Noodles",
       "category": "Main Dish",
@@ -168,6 +155,19 @@
       "cookTime": "20",
       "totalTime": "40",
       "ingredients": "1 pound linguine; 2 TBS olive oil , divided; 2 large eggs , lightly beaten; ½ teaspoon crushed red pepper flakes; 1 zucchini , cut in half vertically, then sliced in half circles; 8 ounces mushroom , chopped; 3 cloves garlic , minced; 2 TBS brown sugar; ⅓ cup low sodium soy sauce; 1.5 TBS Sriracha hot sauce (this is A LOT of spice, tone it down if you don't like spicy); 2 inches fresh ginger , grated; 1 handful fresh cilantro , chopped; 4 green onions , chopped; ¼ cup peanuts , chopped"
+    },
+    {
+      "id": "ec28",
+      "fullName": "Easy Ground Turkey and Zucchini Skillet",
+      "abrvName": "Turkey Skillet",
+      "category": "Main Dish",
+      "subcategory": "Turkey",
+      "instructions": "Add your ground turkey (or beef) to a large skillet on the stovetop. Use a spatula to crumble the meat. Cook on medium-high heat, stirring occasionally, until browned. Stir in salt, pepper, chili powder, oregano, paprika, and minced garlic. Saute for one more minute so garlic is golden in color. Remove meat mixture from pan and set aside. Reduce heat to medium. Add the oil to skillet with the zucchini, onion, and bell pepper. Sprinkle with salt, garlic powder, onion powder, oregano, basil, paprika, and pepper. Stir. Sauté, stirring occasionally, until the onion is translucent and peppers and zucchini are close to tender, about 5 to 10 minutes. Return the cooked ground turkey and garlic to the skillet. Add the water, tomato paste, and fresh spinach. Stir. Cover and simmer everything for 5 to 10 minutes or until it's all warmed through and spinach is wilted.",
+      "ingredients": "1 pound lean ground turkey, can use lean ground beef if preferred; 1 teaspoon salt; ½ teaspoon black pepper; ½ teaspoon chili powder; ½ teaspoon dried oregano; ¼ teaspoon paprika; 1 teaspoon garlic, minced; 1½ tablespoon olive or avocado oil; 2 medium zucchini, cubed; 1 bell pepper, any color, cut into 3/4 inch pieces (close to same size as zucchini); ½ white or yellow onion, cut into 3/4 inch pieces (close to same size as zucchini); ½ teaspoon salt; ½ teaspoon garlic powder; ½ teaspoon onion powder; ½ teaspoon dried oregano; ½ teaspoon dried basil; ½ teaspoon paprika; ¼ teaspoon black pepper; ½ cup water; 2 tablespoons tomato paste; 5 ounces fresh baby spinach",
+      "prepTime": "10",
+      "cookTime": "20",
+      "totalTime": "30",
+      "image": "https://thewholecook.com/wp-content/uploads/2020/08/Easy-Turkey-Zucchini-Skillet-1-7-300x300.jpg"
     }
   ]
 }
