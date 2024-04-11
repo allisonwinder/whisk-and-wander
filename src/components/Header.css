@@ -29,11 +29,6 @@ header {
   letter-spacing: 0.03em;
 }
 
-.subtitle {
-  display: block;
-  font-size: smaller;
-}
-
 .imageSize {
   flex: 0 0 auto;
   max-width: 100%;
@@ -41,57 +36,37 @@ header {
   height: 100%;
 }
 
-/* @media screen and (max-width: 67rem) {
-    .centerhead {
-        align-items: flex-end;
-        padding-inline-end: 1rem;
-    }
+@media screen and (max-width: 44rem) {
+  header .centerhead {
+    align-items: center;
+  }
 
-    .centerhead .subtitle {
-        display: none;
-    }
-} */
-
-/* @media screen and (max-width: 44rem) {
-    header .centerhead {
-        align-items: center;
-        padding: 0;
-        display: none;
-    }
-
-    header #crumbs {
-        margin: 0.56rem 0;
-    }
-} */
-
-/* NEEDSWORK: work in these rules */
-
-/* #crumbs ul {
-    padding: 0;
-    margin: 0;
-    line-height: 1;
+  .title {
+    font-size: medium;
+  }
 }
 
-#crumbs li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: inline-block;
+@media screen and (max-width: 32rem) {
+  .imageSize {
+    padding-left: 20%;
+  }
+
+  .title {
+    font-size: smaller;
+  }
+  .centerhead {
+    padding-left: 1em;
+  }
 }
 
-header a:link,
-header a:visited,
-header a:active {
-    color: var(--header-text-color);
-    text-decoration: none;
+@media screen and (max-width: 25rem) {
+  .title {
+    font-size: x-small;
+  }
 }
 
-header a:hover {
-    color: var(--header-hover-color);
-    text-decoration: underline;
+@media screen and (max-width: 10rem) {
+  .title {
+    font-size: xx-small;
+  }
 }
-
-#crumbs li:not(:first-child)::before {
-    content: ">";
-    padding: 0.3em;
-} */

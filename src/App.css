@@ -1,7 +1,7 @@
 main {
-  background-color: antiquewhite;
   width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 7em 2em auto;
@@ -13,8 +13,29 @@ main {
 
 @media screen and (max-width: 44rem) {
   main {
-    grid-template-columns: auto;
-    grid-template-rows: 2rem 2fr 1fr;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 5% auto 18%;
+    grid-template-areas:
+      "header"
+      "crumbs"
+      "body"
+      "nav";
+  }
+}
+
+@media screen and (max-width: 32rem) {
+  main {
+    grid-template-rows: 7% auto auto;
+    grid-template-areas:
+      "header"
+      "nav"
+      "body";
+  }
+}
+
+@media screen and (max-width: 10rem) {
+  main {
+    grid-template-rows: 7% auto auto;
     grid-template-areas:
       "header"
       "body"

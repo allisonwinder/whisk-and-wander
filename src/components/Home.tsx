@@ -23,10 +23,9 @@ export default function Home() {
           <p className="brand">
             Join me on our adventure together in the kitchen! See you all there!
           </p>
+          <br></br>
         </div>
       </div>
-      <br></br>
-      <br></br>
     </>
   );
 }

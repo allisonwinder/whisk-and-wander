@@ -28,8 +28,6 @@ export default function RecipeList() {
         ))}
       </div>
       <br />
-      <br />
-      <br></br>
     </>
   );
 }

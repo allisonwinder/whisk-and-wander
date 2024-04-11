@@ -67,3 +67,38 @@
   padding-left: 1em;
   font-size: 120%;
 }
+
+@media screen and (max-width: 44rem) {
+  .prepTime {
+    margin: auto;
+  }
+  .cookTime {
+    margin: auto;
+  }
+  .totalTime {
+    margin: auto;
+  }
+  .instructions {
+    font-size: 100%;
+  }
+
+  .ingredients {
+    padding-left: 1em;
+    font-size: 100%;
+  }
+  .recipe-title {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 32rem) {
+  .prepTime {
+    margin: 2px;
+  }
+  .cookTime {
+    margin: 2px;
+  }
+  .totalTime {
+    margin: 2px;
+  }
+}

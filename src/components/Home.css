@@ -19,3 +19,17 @@
 .thoughts {
   flex: 1 1 70%;
 }
+
+@media screen and (max-width: 32rem) {
+  .content {
+    display: block;
+    justify-content: center;
+  }
+
+  .allison {
+    padding: 1em;
+    position: relative;
+    height: 100%;
+    max-width: 80%;
+  }
+}

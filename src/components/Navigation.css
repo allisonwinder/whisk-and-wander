@@ -9,7 +9,7 @@ nav {
   z-index: 3;
 }
 
-.buttonWrapper {
+nav .buttonWrapper {
   justify-content: center;
   padding: 1em;
 }
@@ -38,4 +38,33 @@ nav {
 
 .btn:focus {
   outline: none; /* Remove focus outline */
+}
+
+@media screen and (max-width: 44rem) {
+  .buttonWrapper {
+    display: flex; /* Enable flexbox layout for buttonWrapper */
+    flex-wrap: nowrap;
+  }
+
+  nav {
+    align-items: center; /* Center-align items vertically */
+  }
+}
+
+@media screen and (max-width: 32rem) {
+  .btn {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 20rem) {
+  .btn {
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width: 10rem) {
+  .btn {
+    font-size: x-small;
+  }
 }
