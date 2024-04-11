@@ -10,9 +10,9 @@ export default function AddRecipe() {
     subcategory: "",
     instructions: "",
     ingredients: "",
-    prepTime: "",
-    cookTime: "",
-    totalTime: "",
+    prepTime: "0",
+    cookTime: "0",
+    totalTime: "0",
     image: "",
   });
 
@@ -58,6 +58,14 @@ export default function AddRecipe() {
     setNewRecipe((prevState) => ({
       ...prevState,
       category: value,
+    }));
+  };
+
+  const handleSliderChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = event.target;
+    setNewRecipe((prevState) => ({
+      ...prevState,
+      [name]: value,
     }));
   };
 
@@ -153,33 +161,48 @@ export default function AddRecipe() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="prepTime">Prep Time:</label>
+            <label htmlFor="prepTime">
+              Prep Time: {newRecipe.prepTime} min
+            </label>
             <input
-              type="text"
+              type="range" // Use range input for sliding bar
               id="prepTime"
               name="prepTime"
+              min="0" // Min value for the sliding bar
+              max="200" // Max value for the sliding bar
               value={newRecipe.prepTime}
-              onChange={handleInputChange}
+              onChange={handleSliderChange} // Call handleSliderChange when slider value changes
+              className="slider brand"
             />
           </div>
           <div className="form-group">
-            <label htmlFor="cookTime">Cook Time:</label>
+            <label htmlFor="cookTime">
+              Cook Time: {newRecipe.cookTime} min
+            </label>
             <input
-              type="text"
+              type="range"
               id="cookTime"
               name="cookTime"
+              min="0"
+              max="200"
               value={newRecipe.cookTime}
-              onChange={handleInputChange}
+              onChange={handleSliderChange}
+              className="slider brand"
             />
           </div>
           <div className="form-group">
-            <label htmlFor="totalTime">Total Time:</label>
+            <label htmlFor="totalTime">
+              Total Time: {newRecipe.totalTime} min
+            </label>
             <input
-              type="text"
+              type="range"
               id="totalTime"
               name="totalTime"
+              min="0"
+              max="200"
               value={newRecipe.totalTime}
-              onChange={handleInputChange}
+              onChange={handleSliderChange}
+              className="slider brand"
             />
           </div>
           <div className="form-group">

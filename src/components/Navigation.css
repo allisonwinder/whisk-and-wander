@@ -28,9 +28,11 @@ nav {
   line-height: 2em;
   border-radius: 5px;
   color: black; /* Button text color */
+  transition: transform 0.2s, background-color 0.2s;
 }
 
 .btn:hover {
+  transform: scale(1.05);
   background-color: #ffe0cc; /* Change background color on hover */
 }
 

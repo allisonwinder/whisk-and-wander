@@ -10,7 +10,8 @@
       "prepTime": "30",
       "cookTime": "15",
       "totalTime": "45",
-      "ingredients": "1 C butter flavored shortening (regular works fine); 1 C sugar; ½ C brown sugar; 2 eggs; 2 t vanilla; 2 cups flour; 1 t salt; 1 t baking soda; 1 C oats; 1 C chocolate chips (can replace both chocolate with a pkg of chocolate chips); 1 C M&Ms"
+      "ingredients": "1 C butter flavored shortening (regular works fine); 1 C sugar; ½ C brown sugar; 2 eggs; 2 t vanilla; 2 cups flour; 1 t salt; 1 t baking soda; 1 C oats; 1 C chocolate chips (can replace both chocolate with a pkg of chocolate chips); 1 C M&Ms",
+      "id": "196c"
     },
     {
       "fullName": "Chunky Chipper Cookies",
@@ -22,7 +23,8 @@
       "prepTime": "30",
       "cookTime": "15",
       "totalTime": "45",
-      "ingredients": "2 C flour; 1 t baking soda; ½ t salt; ½ C shortening; ½ C peanut butter; 2 eggs; 1 C sugar; ½ brown sugar; 1 t vanilla; 1 T water; 1 12 oz pkg chocolate chips (big milk chocolate best)"
+      "ingredients": "2 C flour; 1 t baking soda; ½ t salt; ½ C shortening; ½ C peanut butter; 2 eggs; 1 C sugar; ½ brown sugar; 1 t vanilla; 1 T water; 1 12 oz pkg chocolate chips (big milk chocolate best)",
+      "id": "9c05"
     },
     {
       "fullName": "Nutter Butter Pie",
@@ -34,7 +36,8 @@
       "prepTime": "120",
       "cookTime": "15",
       "totalTime": "135",
-      "ingredients": "24 Nutter Butter Cookies, crushed; 6 T salted butter, melted; 8 oz. cream cheese, room temperature; 1 cup marshmallow fluff; ⅓ cup creamy peanut butter; 1 cup heavy cream; 12 Nutter Butter Cookies, crushed; ½ cup heavy cream; 1 T powdered sugar; ¼ cup creamy peanut butter, warmed and drizzled on top"
+      "ingredients": "24 Nutter Butter Cookies, crushed; 6 T salted butter, melted; 8 oz. cream cheese, room temperature; 1 cup marshmallow fluff; ⅓ cup creamy peanut butter; 1 cup heavy cream; 12 Nutter Butter Cookies, crushed; ½ cup heavy cream; 1 T powdered sugar; ¼ cup creamy peanut butter, warmed and drizzled on top",
+      "id": "d43b"
     },
     {
       "fullName": "Banana Bread",
@@ -46,7 +49,8 @@
       "prepTime": "20",
       "cookTime": "60",
       "totalTime": "80",
-      "ingredients": "½ C butter/shortening/margarine; 1 C sugar; 2 eggs; 3 ripe bananas; ½ t salt; 2 C flour; 1 t baking soda"
+      "ingredients": "½ C butter/shortening/margarine; 1 C sugar; 2 eggs; 3 ripe bananas; ½ t salt; 2 C flour; 1 t baking soda",
+      "id": "a280"
     },
     {
       "fullName": "French Bread",
@@ -58,7 +62,8 @@
       "prepTime": "130",
       "cookTime": "20",
       "totalTime": "150",
-      "ingredients": "2 ½ C warm water; 2 T yeast; 1 T salt; 1 T butter, margarine, or shortening; 6-7 C flour"
+      "ingredients": "2 ½ C warm water; 2 T yeast; 1 T salt; 1 T butter, margarine, or shortening; 6-7 C flour",
+      "id": "32e8"
     },
     {
       "fullName": "Roasted Asparagus",
@@ -70,7 +75,8 @@
       "prepTime": "5",
       "cookTime": "15",
       "totalTime": "20",
-      "ingredients": "Asparagus; 1-2 T olive oil; Salt; Pepper"
+      "ingredients": "Asparagus; 1-2 T olive oil; Salt; Pepper",
+      "id": "d3bb"
     },
     {
       "fullName": "Taco Soup",
@@ -82,7 +88,8 @@
       "prepTime": "40",
       "cookTime": "20",
       "totalTime": "60",
-      "ingredients": "1lb ground beef; 1 onion; 1 can corn or frozen; 1 can dark red kidney beans; 1 pckg taco seasoning or 3T; 1 8oz can tomato sauce (15 oz works); 1 28oz can stewed tomatoes"
+      "ingredients": "1lb ground beef; 1 onion; 1 can corn or frozen; 1 can dark red kidney beans; 1 pckg taco seasoning or 3T; 1 8oz can tomato sauce (15 oz works); 1 28oz can stewed tomatoes",
+      "id": "cef2"
     },
     {
       "fullName": "Ham Fried Rice",
@@ -94,7 +101,8 @@
       "prepTime": "10",
       "cookTime": "40",
       "totalTime": "50",
-      "ingredients": "6 C cooked rice; 2 T oil; ½ C green onions; 1 C ham; 2 eggs beaten; 1 lb frozen peas and carrots"
+      "ingredients": "6 C cooked rice; 2 T oil; ½ C green onions; 1 C ham; 2 eggs beaten; 1 lb frozen peas and carrots",
+      "id": "8050"
     },
     {
       "fullName": "Lion House Lasagna",
@@ -106,7 +114,8 @@
       "prepTime": "50",
       "cookTime": "30",
       "totalTime": "80",
-      "ingredients": "1 to 1 ½ lbs ground beef; 1 clove garlic, minced; 1 T basil; 1 20 oz can stewed tomatoes; 1 10 oz package lasagna noodles; 2 eggs, beaten; 2 T parsley flakes; 1 lb mozzarella cheese, thinkly sliced; 1 ½ T oil; 1 T parsley flakes; 2 t salt; 1 6oz can tomato paste; 3 C large-curd cheese; ½ t pepper; ½ C grated Parmesan cheese"
+      "ingredients": "1 to 1 ½ lbs ground beef; 1 clove garlic, minced; 1 T basil; 1 20 oz can stewed tomatoes; 1 10 oz package lasagna noodles; 2 eggs, beaten; 2 T parsley flakes; 1 lb mozzarella cheese, thinkly sliced; 1 ½ T oil; 1 T parsley flakes; 2 t salt; 1 6oz can tomato paste; 3 C large-curd cheese; ½ t pepper; ½ C grated Parmesan cheese",
+      "id": "7573"
     },
     {
       "fullName": "Russian Tea",
@@ -118,7 +127,8 @@
       "prepTime": "10",
       "cookTime": "10",
       "totalTime": "20",
-      "ingredients": "2 C white sugar; 2 C water; 2 quarts water; 2 C orange juice, reconstituted; ¼ C lemon juice, reconstituted; 1 t vanilla; 1 t almond extract"
+      "ingredients": "2 C white sugar; 2 C water; 2 quarts water; 2 C orange juice, reconstituted; ¼ C lemon juice, reconstituted; 1 t vanilla; 1 t almond extract",
+      "id": "2471"
     },
     {
       "fullName": "Lemon Raspberry Zucchini Bread with a Lemony Glaze",
@@ -130,7 +140,8 @@
       "prepTime": "30",
       "cookTime": "45",
       "totalTime": "75",
-      "ingredients": "2 cups unbleached all-purpose flour; 2 teaspoon baking powder; 1/2 teaspoon salt; 2 eggs; 1/2 cup vegetable oil; 2/3 cup sugar; 1/2 cup whole milk; 1/4 cup fresh lemon juice; Zest of 1 lemon; 1 cup grated zucchini; 1 cup of raspberries"
+      "ingredients": "2 cups unbleached all-purpose flour; 2 teaspoon baking powder; 1/2 teaspoon salt; 2 eggs; 1/2 cup vegetable oil; 2/3 cup sugar; 1/2 cup whole milk; 1/4 cup fresh lemon juice; Zest of 1 lemon; 1 cup grated zucchini; 1 cup of raspberries",
+      "id": "8b05"
     },
     {
       "fullName": "Asian Chicken Wraps",
@@ -142,7 +153,8 @@
       "prepTime": "15",
       "cookTime": "0",
       "totalTime": "15",
-      "ingredients": "3 cups coleslaw mix; 1 cup shredded carrots; 1/3 cup roasted peanuts; 1/4 cup chopped fresh cilantro; 2 cooked chicken breasts, chopped or sliced; 6 large tortillas; 1/4 cup honey; 1/4 cup olive oil (or vegetable oil); 1/4 cup peanut butter; 3 tablespoons unseasoned rice vinegar; 1 tablespoon soy sauce; 1 teaspoon sesame oil; 1/2 teaspoon pepper; 1/4 teaspoon salt; 1/4–1/2 teaspoon crushed red pepper flakes; 1 tablespoon grated fresh ginger; 1 large garlic clove, minced"
+      "ingredients": "3 cups coleslaw mix; 1 cup shredded carrots; 1/3 cup roasted peanuts; 1/4 cup chopped fresh cilantro; 2 cooked chicken breasts, chopped or sliced; 6 large tortillas; 1/4 cup honey; 1/4 cup olive oil (or vegetable oil); 1/4 cup peanut butter; 3 tablespoons unseasoned rice vinegar; 1 tablespoon soy sauce; 1 teaspoon sesame oil; 1/2 teaspoon pepper; 1/4 teaspoon salt; 1/4–1/2 teaspoon crushed red pepper flakes; 1 tablespoon grated fresh ginger; 1 large garlic clove, minced",
+      "id": "eaf7"
     },
     {
       "fullName": "One Pot Spicy Thai Noodles",
@@ -154,7 +166,8 @@
       "prepTime": "20",
       "cookTime": "20",
       "totalTime": "40",
-      "ingredients": "1 pound linguine; 2 TBS olive oil , divided; 2 large eggs , lightly beaten; ½ teaspoon crushed red pepper flakes; 1 zucchini , cut in half vertically, then sliced in half circles; 8 ounces mushroom , chopped; 3 cloves garlic , minced; 2 TBS brown sugar; ⅓ cup low sodium soy sauce; 1.5 TBS Sriracha hot sauce (this is A LOT of spice, tone it down if you don't like spicy); 2 inches fresh ginger , grated; 1 handful fresh cilantro , chopped; 4 green onions , chopped; ¼ cup peanuts , chopped"
+      "ingredients": "1 pound linguine; 2 TBS olive oil , divided; 2 large eggs , lightly beaten; ½ teaspoon crushed red pepper flakes; 1 zucchini , cut in half vertically, then sliced in half circles; 8 ounces mushroom , chopped; 3 cloves garlic , minced; 2 TBS brown sugar; ⅓ cup low sodium soy sauce; 1.5 TBS Sriracha hot sauce (this is A LOT of spice, tone it down if you don't like spicy); 2 inches fresh ginger , grated; 1 handful fresh cilantro , chopped; 4 green onions , chopped; ¼ cup peanuts , chopped",
+      "id": "d652"
     },
     {
       "id": "ec28",
@@ -168,6 +181,19 @@
       "cookTime": "20",
       "totalTime": "30",
       "image": "https://thewholecook.com/wp-content/uploads/2020/08/Easy-Turkey-Zucchini-Skillet-1-7-300x300.jpg"
+    },
+    {
+      "id": "d60a",
+      "fullName": "Peanut Butter Sheet Cake",
+      "abrvName": "Sheet Cake",
+      "category": "Dessert",
+      "subcategory": "Brownies/Bars",
+      "instructions": "Preheat oven to 400 F. In a large bowl, mix together sugar, baking soda, flour and salt. Set aside. Combine butter, water and peanut butter in a saucepan and bring to boil. Pour over flour mixture. Add milk, vanilla and eggs. Mix. Pour in a large cookie sheet or jelly roll pan (10x15x1-inch, plus or minus). Bake at 400 F for 20 minutes. Remove from oven and cool before frosting. For the frosting: Bring butter, peanut butter and milk to boil in a saucepan. Add the powdered sugar and mix until combined. Pour warmed frosting over cooled cake.",
+      "ingredients": "2 cups Sugar; 1 teaspoon Baking Soda; 2 cups Flour; 1 teaspoon Salt; 2 sticks Butter; 1 cup Water; 1 cup Peanut Butter; ½ cups Milk; 1 teaspoon Vanilla; 2 whole Eggs; 1 stick Butter; ½ cups Peanut Butter; 6 teaspoons Milk; 1 pound Powdered Sugar",
+      "prepTime": "15",
+      "cookTime": "20",
+      "totalTime": "35",
+      "image": "https://www.shugarysweets.com/wp-content/uploads/2021/02/peanut-butter-sheet-cake-served.jpg"
     }
   ]
 }

@@ -44,6 +44,7 @@ export default function RecipeView() {
             </p>
           </div>
           <div className="ingredients brand">
+            <h2 className="brand">Ingredients</h2>
             <ul>
               {parseIngredients(recipe.ingredients).map((ingred, index) => (
                 <li key={index}>{ingred}</li>
@@ -51,6 +52,7 @@ export default function RecipeView() {
             </ul>
           </div>
           <div className="instructions brand">
+            <h2 className="brand">Instructions</h2>
             <ol>
               {parseInstructions(recipe.instructions).map((sentence, index) => (
                 <li key={index}>{sentence}</li>
