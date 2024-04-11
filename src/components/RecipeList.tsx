@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./RecipeList.css";
 
 export default function RecipeList() {
@@ -15,12 +16,7 @@ export default function RecipeList() {
     <>
       <div className="recipe-container">
         {recipes.map((recipe) => (
-          <a
-            className="recipe-card"
-            id={`c${recipe.id}`}
-            key={`k${recipe.id}`}
-            href={`recipes/${recipe.id}`}
-          >
+          <Link className="recipe-card" to={`${recipe.id}`}>
             <h2>{recipe.fullName}</h2>
             <p>
               <strong>Total Time:</strong> {recipe.totalTime}
@@ -28,7 +24,7 @@ export default function RecipeList() {
             <p>
               <strong>Category:</strong> {recipe.category}
             </p>
-          </a>
+          </Link>
         ))}
       </div>
       <br />
