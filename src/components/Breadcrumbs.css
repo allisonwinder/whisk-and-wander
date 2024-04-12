@@ -11,9 +11,28 @@
   padding-left: 2em;
 }
 
+.transitions {
+  transition: transform 0.5s;
+}
+
+.transitions:hover {
+  transform: scale(125%);
+}
+
 .links {
   text-decoration: none; /* Remove default link underline */
   color: black;
+  transition: text-decoration 0.5s;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 44rem) {
+  .text-resize {
+    font-size: small;
+  }
 }
 
 @media screen and (max-width: 32rem) {
