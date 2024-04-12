@@ -17,13 +17,27 @@ export default function RecipeList() {
       <div className="recipe-container">
         {recipes.map((recipe) => (
           <Link className="recipe-card" to={`${recipe.id}`}>
-            <h2>{recipe.fullName}</h2>
-            <p>
-              <strong>Total Time:</strong> {recipe.totalTime}
-            </p>
-            <p>
-              <strong>Category:</strong> {recipe.category}
-            </p>
+            <div className="recipe-content">
+              <h5 className="rec-title brand">{recipe.fullName}</h5>
+              <div className="img-center">
+                <img
+                  src={recipe?.image}
+                  alt="recipe"
+                  className="photo-size"
+                ></img>
+              </div>
+              <p className="card-info">
+                <strong>Total Time:</strong> {recipe.totalTime} min
+              </p>
+              <p className="card-info">
+                <strong>Category:</strong> {recipe.category}
+              </p>
+              {recipe.subcategory !== "" && (
+                <p className="subcategory card-info">
+                  <strong>Subcategory:</strong> {recipe.subcategory}
+                </p>
+              )}
+            </div>
           </Link>
         ))}
       </div>
