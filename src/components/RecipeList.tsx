@@ -21,7 +21,7 @@ export default function RecipeList() {
     <>
       <div className="recipe-container">
         {recipes.map((recipe) => (
-          <Link className="recipe-card" to={`${recipe.id}`}>
+          <Link className="recipe-card" to={`${recipe.id}`} key={recipe.id}>
             <div className="recipe-content">
               <h5 className="rec-title brand">{recipe.fullName}</h5>
               <div className="img-center">

@@ -28,6 +28,34 @@ export default function AddRecipe() {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
+    let errors = "";
+
+    if (!newRecipe.fullName || !newRecipe.abrvName) {
+      errors +=
+        "Please enter both the full name and abbreviated name of the recipe.";
+    }
+
+    if (!newRecipe.instructions) {
+      errors += "\nPlease enter the instructions.";
+    }
+
+    if (!newRecipe.ingredients) {
+      errors += "\nPlease enter the ingredients.";
+    }
+
+    if (!newRecipe.ingredients.includes(";")) {
+      errors += "\nPlease separate ingedients with a semicolon";
+    }
+
+    if (!newRecipe.category) {
+      errors += "\nPlease select a category.";
+    }
+
+    if (errors !== "") {
+      alert(errors);
+      return;
+    }
+
     try {
       // Omit the 'id' field when sending the POST request
       const { ...newRecipeWithoutId } = newRecipe;
