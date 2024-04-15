@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import LoadingIndicator from "./LoadingIndicator";
 import "./RecipeList.css";
 
 export default function RecipeList() {
@@ -11,6 +12,10 @@ export default function RecipeList() {
       .then((data) => setRecipes(data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
+
+  if (!recipes) {
+    return <LoadingIndicator />; // Render loading state while data is being fetched
+  }
 
   return (
     <>

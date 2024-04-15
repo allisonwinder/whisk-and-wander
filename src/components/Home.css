@@ -20,6 +20,10 @@
   flex: 1 1 70%;
 }
 
+.loading {
+  text-align: center;
+}
+
 @media screen and (max-width: 32rem) {
   .content {
     display: block;

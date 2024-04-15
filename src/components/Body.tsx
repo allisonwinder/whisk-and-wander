@@ -26,6 +26,7 @@ export default function Body() {
                 <Route path="/addRecipe" element={<AddRecipe />} />
                 <Route path="/recipes" element={<RecipeList />} />
                 <Route path="/recipes/:id" element={<RecipeView />} />
+                <Route path="*" element={<div>Not Found</div>} />
               </Routes>
             </div>{" "}
           </div>
