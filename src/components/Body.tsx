@@ -35,11 +35,3 @@ export default function Body() {
     </section>
   );
 }
-
-/*        { Routes for different pages}
-       <Routes>
-       <Route path="/" element={<Home />} />
-       <Route path="/addRecipe" element={<AddRecipe />} />
-       <Route path="/recipes" element={<RecipeList />} />
-       <Route path="/recipes/:id" element={<RecipeView />} />
-     </Routes> */
