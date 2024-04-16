@@ -5,15 +5,7 @@ header {
   align-items: center;
   z-index: 3;
   outline: solid grey 1px;
-  /* box-shadow: 0 2px 5px 0 var(--header-shadow-1), 0 2px 10px 0 var(--header-shadow-2); */
 }
-
-/* #crumbs {
-    flex: 1 1 30%;
-    padding-inline-start: 0.67em;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-} */
 
 .centerhead {
   flex: 1 1 70%;
