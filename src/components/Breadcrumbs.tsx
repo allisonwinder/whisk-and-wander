@@ -1,7 +1,28 @@
-import { Routes, Route, Link, useParams } from "react-router-dom";
+import { Routes, Route, Link, useParams, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Recipe } from "../Types";
 import "./Breadcrumbs.css";
+
+function useWindowSize() {
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return windowSize;
+}
 
 function HomeBreadcrumb() {
   return <div className="text-resize brand">Home</div>;
@@ -33,6 +54,8 @@ function AllRecipesBreadcrumb() {
 function SingleRecipeBreadcrumb() {
   const { id } = useParams();
   const [recipe, setRecipe] = useState<Recipe>();
+  const { width } = useWindowSize();
+  const location = useLocation();
 
   useEffect(() => {
     if (!id) return;
@@ -41,11 +64,13 @@ function SingleRecipeBreadcrumb() {
       .then((response) => response.json())
       .then((data) => setRecipe(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, [id]);
+  }, [id, location]);
 
   if (!recipe) {
-    return <div>Loading...</div>; // Render loading state while data is being fetched
+    return <div>Loading...</div>;
   }
+
+  const displayName = width < 600 ? recipe.abrvName : recipe.fullName;
 
   return (
     <div className="text-resize brand">
@@ -54,10 +79,9 @@ function SingleRecipeBreadcrumb() {
       </Link>{" "}
       --{" "}
       <Link to="/recipes" className="links">
-        {" "}
         All Recipes
       </Link>{" "}
-      -- {recipe.fullName}
+      -- {displayName}
     </div>
   );
 }
@@ -82,6 +106,8 @@ function CategoryBreadcrumb() {
 function SingleCatRecipeBreadcrumb() {
   const { id } = useParams();
   const [recipe, setRecipe] = useState<Recipe>();
+  const { width } = useWindowSize();
+  const location = useLocation();
 
   useEffect(() => {
     if (!id) return;
@@ -90,27 +116,28 @@ function SingleCatRecipeBreadcrumb() {
       .then((response) => response.json())
       .then((data) => setRecipe(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, [id]);
+  }, [id, location]);
 
   if (!recipe) {
-    return <div>Loading...</div>; // Render loading state while data is being fetched
+    return <div>Loading...</div>;
   }
+
+  const displayName = width < 600 ? recipe.abrvName : recipe.fullName;
 
   return (
     <div className="text-resize brand">
       <Link to="/" className="links">
         Home
       </Link>{" "}
-      --
+      --{" "}
       <Link to="/recipes" className="links">
-        {" "}
         All Recipes
       </Link>{" "}
       --{" "}
       <Link to={`/recipes/category/${recipe.category}`} className="links">
         {recipe.category}
       </Link>{" "}
-      -- {recipe.fullName}
+      -- {displayName}
     </div>
   );
 }

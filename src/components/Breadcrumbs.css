@@ -35,12 +35,6 @@
   }
 }
 
-@media screen and (max-width: 34rem) {
-  .text-resize {
-    font-size: x-small;
-  }
-}
-
 @media screen and (max-width: 32rem) {
   .crumbs {
     display: none;
