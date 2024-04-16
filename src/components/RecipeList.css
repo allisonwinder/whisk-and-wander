@@ -4,6 +4,12 @@
   justify-content: space-around;
 }
 
+.linked_categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .recipe-card {
   flex: 0 0 calc(25%); /* Three columns with margin between cards */
   margin: 10px;
@@ -14,6 +20,10 @@
   text-decoration: none;
   color: black;
   transition: transform 0.2s, background-color 0.2s;
+}
+
+.inner {
+  flex: 0 0 calc(25%);
 }
 
 .recipe-card:hover {
@@ -63,9 +73,17 @@
   .recipe-card {
     flex: 0 0 calc(33%); /* Two columns on smaller screens */
   }
+
+  .inner {
+    flex: 0 0 calc(33%);
+  }
 }
 @media screen and (max-width: 32rem) {
   .recipe-card {
     flex: 0 0 calc(93%); /* Two columns on smaller screens */
+  }
+
+  .inner {
+    flex: 0 0 calc(93%);
   }
 }

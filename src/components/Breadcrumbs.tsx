@@ -46,6 +46,7 @@ function SingleRecipeBreadcrumb() {
   if (!recipe) {
     return <div>Loading...</div>; // Render loading state while data is being fetched
   }
+
   return (
     <div className="text-resize brand">
       <Link to="/" className="links">
@@ -61,6 +62,59 @@ function SingleRecipeBreadcrumb() {
   );
 }
 
+function CategoryBreadcrumb() {
+  const { category } = useParams();
+  return (
+    <div className="text-resize brand">
+      <Link to="/" className="links">
+        Home
+      </Link>{" "}
+      --{" "}
+      <Link to="/recipes" className="links">
+        {" "}
+        All Recipes
+      </Link>{" "}
+      -- {category}
+    </div>
+  );
+}
+
+function SingleCatRecipeBreadcrumb() {
+  const { id } = useParams();
+  const [recipe, setRecipe] = useState<Recipe>();
+
+  useEffect(() => {
+    if (!id) return;
+
+    fetch(`http://localhost:3001/recipes/${id}`)
+      .then((response) => response.json())
+      .then((data) => setRecipe(data))
+      .catch((error) => console.error("Error fetching data:", error));
+  }, [id]);
+
+  if (!recipe) {
+    return <div>Loading...</div>; // Render loading state while data is being fetched
+  }
+
+  return (
+    <div className="text-resize brand">
+      <Link to="/" className="links">
+        Home
+      </Link>{" "}
+      --
+      <Link to="/recipes" className="links">
+        {" "}
+        All Recipes
+      </Link>{" "}
+      --{" "}
+      <Link to={`/recipes/category/${recipe.category}`} className="links">
+        {recipe.category}
+      </Link>{" "}
+      -- {recipe.fullName}
+    </div>
+  );
+}
+
 export default function Breadcrumbs() {
   return (
     <div className="crumbs">
@@ -69,6 +123,14 @@ export default function Breadcrumbs() {
         <Route path="/addRecipe" element={<AddRecipeBreadcrumb />} />
         <Route path="/recipes" element={<AllRecipesBreadcrumb />} />
         <Route path="/recipes/:id" element={<SingleRecipeBreadcrumb />} />
+        <Route
+          path="/recipes/category/:category"
+          element={<CategoryBreadcrumb />}
+        />
+        <Route
+          path="/recipes/category/:category/:id"
+          element={<SingleCatRecipeBreadcrumb />}
+        />
       </Routes>
     </div>
   );

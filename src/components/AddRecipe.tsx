@@ -164,9 +164,6 @@ export default function AddRecipe() {
               <option value="Main Dish" className="brand">
                 Main Dish
               </option>
-              <option value="Appetizer" className="brand">
-                Appetizer
-              </option>
               <option value="Side" className="brand">
                 Side
               </option>

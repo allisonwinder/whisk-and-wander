@@ -1,17 +1,18 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import LoadingIndicator from "./LoadingIndicator";
 import "./RecipeList.css";
 
-export default function RecipeList() {
+export default function CategoryList() {
+  const { category } = useParams();
   const [recipes, setRecipes] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/recipes")
+    fetch(`http://localhost:3001/recipes?category=${category}`)
       .then((response) => response.json())
       .then((data) => setRecipes(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  }, [category]);
 
   if (!recipes) {
     return <LoadingIndicator />; // Render loading state while data is being fetched
@@ -19,23 +20,6 @@ export default function RecipeList() {
 
   return (
     <>
-      <div className="linked_categories">
-        <Link to="category/Side" className="inner btn">
-          Side
-        </Link>
-        <Link to="category/Main Dish" className="inner btn">
-          Main Dish
-        </Link>
-        <Link to="category/Dessert" className="inner btn">
-          Dessert
-        </Link>
-        <Link to="category/Drink" className="inner btn">
-          Drink
-        </Link>
-        <Link to="category/Bread" className="inner btn">
-          Breads
-        </Link>
-      </div>
       <div className="recipe-container">
         {recipes.map((recipe) => (
           <Link className="recipe-card" to={`${recipe.id}`} key={recipe.id}>
