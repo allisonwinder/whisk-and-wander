@@ -15,6 +15,7 @@ export default function AddRecipe() {
     totalTime: "0",
     image: "",
   });
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -28,31 +29,32 @@ export default function AddRecipe() {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    let errors = "";
+    let errors = [];
 
     if (!newRecipe.fullName || !newRecipe.abrvName) {
-      errors +=
-        "Please enter both the full name and abbreviated name of the recipe.";
+      errors.push(
+        "Please enter both the full name and abbreviated name of the recipe."
+      );
     }
 
     if (!newRecipe.instructions) {
-      errors += "\nPlease enter the instructions.";
+      errors.push("Please enter the instructions.");
     }
 
     if (!newRecipe.ingredients) {
-      errors += "\nPlease enter the ingredients.";
+      errors.push("Please enter the ingredients.");
     }
 
     if (!newRecipe.ingredients.includes(";")) {
-      errors += "\nPlease separate ingedients with a semicolon";
+      errors.push("Please separate ingredients with a semicolon.");
     }
 
     if (!newRecipe.category) {
-      errors += "\nPlease select a category.";
+      errors.push("Please select a category.");
     }
 
-    if (errors !== "") {
-      alert(errors);
+    if (errors.length > 0) {
+      setErrorMessage(errors.join("\n")); // Join the array elements with a newline character
       return;
     }
 
@@ -73,9 +75,13 @@ export default function AddRecipe() {
         totalTime: "",
         ingredients: "",
       });
+      setErrorMessage("");
       console.log("Form submitted:", newRecipe);
     } catch (error) {
       console.error("Error adding recipe:", error);
+      setErrorMessage(
+        "An error occurred while adding the recipe. Please try again later."
+      );
     }
   };
 
@@ -243,6 +249,9 @@ export default function AddRecipe() {
           <button type="submit" className="submit-button brand">
             Add Recipe
           </button>
+          {errorMessage && (
+            <div className="error-message brand">{errorMessage}</div>
+          )}
         </form>
       </div>
       <br></br>

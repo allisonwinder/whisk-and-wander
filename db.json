@@ -298,6 +298,19 @@
       "cookTime": "0",
       "totalTime": "60",
       "image": "https://www.lifeloveliz.com/wp-content/uploads/2015/04/Frosted-Lemonade.jpg.webp"
+    },
+    {
+      "id": "ddb8",
+      "fullName": "Snickerdoodles",
+      "abrvName": "Snickerdoodles",
+      "category": "Dessert",
+      "subcategory": "Cookies",
+      "instructions": "Sift dry ingredients and mix with other ingredients. Roll into walnut size balls and roll in a mixture of 2 T sugar and 2 t cinnamon. Bake at 400 for 8-10 minutes (in Washington it’s 11 min).",
+      "ingredients": "2 C shortening; 3 C sugar; 4 eggs; 5 ½ C sifted flour; 4 t cream of tartar; 4 t baking soda; ½ t salt",
+      "prepTime": "15",
+      "cookTime": "10",
+      "totalTime": "25",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/snickerdoodles-index-64efbf60e1c2e.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*"
     }
   ]
 }
