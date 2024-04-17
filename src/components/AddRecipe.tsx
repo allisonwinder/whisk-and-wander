@@ -53,6 +53,10 @@ export default function AddRecipe() {
       errors.push("Please select a category.");
     }
 
+    if (!newRecipe.image) {
+      errors.push("Please enter an image URL.");
+    }
+
     if (errors.length > 0) {
       setErrorMessage(errors.join("\n")); // Join the array elements with a newline character
       return;
