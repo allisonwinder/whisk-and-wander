@@ -25,20 +25,10 @@ main {
 
 @media screen and (max-width: 32rem) {
   main {
-    grid-template-rows: 7% auto auto;
+    grid-template-rows: 7% 86.67px auto;
     grid-template-areas:
       "header"
       "nav"
       "body";
-  }
-}
-
-@media screen and (max-width: 10rem) {
-  main {
-    grid-template-rows: 7% auto auto;
-    grid-template-areas:
-      "header"
-      "body"
-      "nav";
   }
 }

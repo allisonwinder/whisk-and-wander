@@ -21,7 +21,7 @@ export default function Body() {
           appear
         >
           <div className="bodywrapper">
-            <div>
+            <>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/addRecipe" element={<AddRecipe />} />
@@ -37,7 +37,7 @@ export default function Body() {
                 />
                 <Route path="*" element={<div>Not Found</div>} />
               </Routes>
-            </div>{" "}
+            </>{" "}
           </div>
         </CSSTransition>
       </TransitionGroup>

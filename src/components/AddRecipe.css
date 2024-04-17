@@ -70,3 +70,17 @@ textarea {
   background: #fbede6;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 32rem) {
+  .form-container {
+    max-width: 90%;
+  }
+
+  .add-recipe-title {
+    font-size: large;
+  }
+
+  .form-group {
+    font-size: small;
+  }
+}

@@ -110,7 +110,7 @@ export default function AddRecipe() {
   return (
     <>
       <div className="form-container brand">
-        <h1>Add Recipe</h1>
+        <h1 className="add-recipe-title">Add Recipe</h1>
         <form onSubmit={handleSubmit} className="recipe-form">
           <div className="form-group">
             <label htmlFor="fullName">Full Name:</label>
