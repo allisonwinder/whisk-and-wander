@@ -14,12 +14,12 @@ export default function RecipeList() {
   }, []);
 
   if (!recipes) {
-    return <LoadingIndicator />; // Render loading state while data is being fetched
+    return <LoadingIndicator />;
   }
 
   return (
     <>
-      <div className="linked_categories">
+      <div className="linked_categories brand">
         <Link to="category/Side" className="inner btn">
           Side
         </Link>

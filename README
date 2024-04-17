@@ -1,0 +1,14 @@
+This project has several features including:
+
+- Media queries that make the application responsive to multiple computer screen sizes as well as mobile compliance.
+- Crossfade animations in the body between screens.
+- A home page introducing the purpose of this website.
+- A page with the ability to add recipe data to the database. This database is JSON server, which basically makes the database a json string that can be queried. It is a simple and light-weight database. Database changes are permanant beyond starting and stopping the application.
+  - This addition has some basic data validation to make sure that data was passed and some basic formatting of data errors. There could definitely be more data validation, but there is some basic ones for now.
+  - There is an error added if the user doesn't put in the information as they should.
+- There is an ability to look at all the recipes in the database.
+- Also able to sort the data by types of foods.
+- The breadcrumbs informs users where they are in the website and can click previous pages to be taken back to the page. The breadcrumbs change from a full name to an abbreviated name as a screen gets smaller.
+- Dynamic CSS that is engaging to look at.
+
+There are certainly many things I would have liked to have spent more time adjusting the css and increasing functionality; however, I do feel good about what I have right now and its functionality.
